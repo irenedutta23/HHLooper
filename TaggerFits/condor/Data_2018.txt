@@ -1,0 +1,4 @@
+/storage/user/sixie/data/HH/HHTo4BNtupler/20201117/option20/combined/2018/JetHT_2018A.root
+/storage/user/sixie/data/HH/HHTo4BNtupler/20201117/option20/combined/2018/JetHT_2018B.root
+/storage/user/sixie/data/HH/HHTo4BNtupler/20201117/option20/combined/2018/JetHT_2018C.root
+/storage/user/sixie/data/HH/HHTo4BNtupler/20201117/option20/combined/2018/JetHT_2018D.root

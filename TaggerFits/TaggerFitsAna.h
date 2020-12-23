@@ -118,13 +118,13 @@ void TaggerFitsAna::BookHistogram(const char *outFileName) {
   histJet1PNetXbb = new TH1D("h_Jet1PNetXbb", "; Leading Jet PNetXbb ; Number of Events", 25, 0, 1.0);
   histJet1Tau3OverTau2 = new TH1D("h_Jet1Tau3OverTau2", "; Leading Jet #tau_{32} ; Number of Events", 25, 0, 1.0);
   histJet1n2b1 = new TH1D("h_Jet1DDB", "; Leading Jet N2b1 ; Number of Events", 25, 0, 0.5);
-  histJet1HasMuon = new TH1D("h_Jet1Has", "; Leading Jet Has Muon; Number of Events", 2, 0, 2.0);
-  histJet1HasElectron = new TH1D("h_Jet1Has", "; Leading Jet Has Electron; Number of Events", 2, 0, 2.0);
-  histJet1HasBJetCSVLoose = new TH1D("h_Jet1Has", "; Leading Jet is loose CSV; Number of Events", 2, 0, 2.0);
-  histJet1HasBJetCSVMedium = new TH1D("h_Jet1Has", "; Leading Jet is Medium CSV; Number of Events", 2, 0, 2.0);
-  histJet1HasBJetCSVTight = new TH1D("h_Jet1Has", "; Leading Jet is Tight CSV ; Number of Events", 2, 0, 2.0);
+  histJet1HasMuon = new TH1D("h_Jet1HasMuon", "; Leading Jet Has Muon; Number of Events", 2, 0, 2.0);
+  histJet1HasElectron = new TH1D("h_Jet1HasElectron", "; Leading Jet Has Electron; Number of Events", 2, 0, 2.0);
+  histJet1HasBJetCSVLoose = new TH1D("h_Jet1HasBJetCSVLoose", "; Leading Jet is loose CSV; Number of Events", 2, 0, 2.0);
+  histJet1HasBJetCSVMedium = new TH1D("h_Jet1HasBJetCSVMedium", "; Leading Jet is Medium CSV; Number of Events", 2, 0, 2.0);
+  histJet1HasBJetCSVTight = new TH1D("h_Jet1HasBJetCSVTight", "; Leading Jet is Tight CSV ; Number of Events", 2, 0, 2.0);
   histJet1OppositeHemisphereHasBJet = new TH1D("h_Jet1OppositeHemisphereHasBJet", "; Leading Jet has a b-jet in #Delta#phi>2.5; Number of Events", 2, 0, 2.0);
-  histJet1Rho = new TH1D("h_Jet1Rho", "; Leading Jet #rho ; Number of Events", 60, -1, -7);
+  histJet1Rho = new TH1D("h_Jet1Rho", "; Leading Jet #rho ; Number of Events", 60, -7, -1);
 
   oFile->mkdir("Pass");
   oFile->cd("Pass");
@@ -137,13 +137,13 @@ void TaggerFitsAna::BookHistogram(const char *outFileName) {
   histJet1PNetXbb_Pass = new TH1D("h_Jet1PNetXbb", "; Leading Jet PNetXbb ; Number of Events", 25, 0, 1.0);
   histJet1Tau3OverTau2_Pass = new TH1D("h_Jet1Tau3OverTau2", "; Leading Jet #tau_{32} ; Number of Events", 25, 0, 1.0);
   histJet1n2b1_Pass = new TH1D("h_Jet1DDB", "; Leading Jet N2b1 ; Number of Events", 25, 0, 0.5);
-  histJet1HasMuon_Pass = new TH1D("h_Jet1Has", "; Leading Jet Has Muon; Number of Events", 2, 0, 2.0);
-  histJet1HasElectron_Pass = new TH1D("h_Jet1Has", "; Leading Jet Has Electron; Number of Events", 2, 0, 2.0);
-  histJet1HasBJetCSVLoose_Pass = new TH1D("h_Jet1Has", "; Leading Jet is loose CSV; Number of Events", 2, 0, 2.0);
-  histJet1HasBJetCSVMedium_Pass = new TH1D("h_Jet1Has", "; Leading Jet is Medium CSV; Number of Events", 2, 0, 2.0);
-  histJet1HasBJetCSVTight_Pass = new TH1D("h_Jet1Has", "; Leading Jet is Tight CSV ; Number of Events", 2, 0, 2.0);
+  histJet1HasMuon_Pass = new TH1D("h_Jet1HasMuon", "; Leading Jet Has Muon; Number of Events", 2, 0, 2.0);
+  histJet1HasElectron_Pass = new TH1D("h_Jet1HasElectron", "; Leading Jet Has Electron; Number of Events", 2, 0, 2.0);
+  histJet1HasBJetCSVLoose_Pass = new TH1D("h_Jet1HasBJetCSVLoose", "; Leading Jet is loose CSV; Number of Events", 2, 0, 2.0);
+  histJet1HasBJetCSVMedium_Pass = new TH1D("h_Jet1HasBJetCSVMedium", "; Leading Jet is Medium CSV; Number of Events", 2, 0, 2.0);
+  histJet1HasBJetCSVTight_Pass = new TH1D("h_Jet1HasBJetCSVTight", "; Leading Jet is Tight CSV ; Number of Events", 2, 0, 2.0);
   histJet1OppositeHemisphereHasBJet_Pass = new TH1D("h_Jet1OppositeHemisphereHasBJet", "; Leading Jet has a b-jet in #Delta#phi>2.5; Number of Events", 2, 0, 2.0);
-  histJet1Rho_Pass = new TH1D("h_Jet1Rho", "; Leading Jet #rho ; Number of Events", 60, -1, -7);
+  histJet1Rho_Pass = new TH1D("h_Jet1Rho", "; Leading Jet #rho ; Number of Events", 60, -7, -1);
 
   oFile->mkdir("Fail");
   oFile->cd("Fail");
@@ -156,13 +156,13 @@ void TaggerFitsAna::BookHistogram(const char *outFileName) {
   histJet1PNetXbb_Fail = new TH1D("h_Jet1PNetXbb", "; Leading Jet PNetXbb ; Number of Events", 25, 0, 1.0);
   histJet1Tau3OverTau2_Fail = new TH1D("h_Jet1Tau3OverTau2", "; Leading Jet #tau_{32} ; Number of Events", 25, 0, 1.0);
   histJet1n2b1_Fail = new TH1D("h_Jet1DDB", "; Leading Jet N2b1 ; Number of Events", 25, 0, 0.5);
-  histJet1HasMuon_Fail = new TH1D("h_Jet1Has", "; Leading Jet Has Muon; Number of Events", 2, 0, 2.0);
-  histJet1HasElectron_Fail = new TH1D("h_Jet1Has", "; Leading Jet Has Electron; Number of Events", 2, 0, 2.0);
-  histJet1HasBJetCSVLoose_Fail = new TH1D("h_Jet1Has", "; Leading Jet is loose CSV; Number of Events", 2, 0, 2.0);
-  histJet1HasBJetCSVMedium_Fail = new TH1D("h_Jet1Has", "; Leading Jet is Medium CSV; Number of Events", 2, 0, 2.0);
-  histJet1HasBJetCSVTight_Fail = new TH1D("h_Jet1Has", "; Leading Jet is Tight CSV ; Number of Events", 2, 0, 2.0);
+  histJet1HasMuon_Fail = new TH1D("h_Jet1HasMuon", "; Leading Jet Has Muon; Number of Events", 2, 0, 2.0);
+  histJet1HasElectron_Fail = new TH1D("h_Jet1HasElectron", "; Leading Jet Has Electron; Number of Events", 2, 0, 2.0);
+  histJet1HasBJetCSVLoose_Fail = new TH1D("h_Jet1HasBJetCSVLoose", "; Leading Jet is loose CSV; Number of Events", 2, 0, 2.0);
+  histJet1HasBJetCSVMedium_Fail = new TH1D("h_Jet1HasBJetCSVMedium", "; Leading Jet is Medium CSV; Number of Events", 2, 0, 2.0);
+  histJet1HasBJetCSVTight_Fail = new TH1D("h_Jet1HasBJetCSVTight", "; Leading Jet is Tight CSV ; Number of Events", 2, 0, 2.0);
   histJet1OppositeHemisphereHasBJet_Fail = new TH1D("h_Jet1OppositeHemisphereHasBJet", "; Leading Jet has a b-jet in #Delta#phi>2.5; Number of Events", 2, 0, 2.0);
-  histJet1Rho_Fail = new TH1D("h_Jet1Rho", "; Leading Jet #rho ; Number of Events", 60, -1, -7);
+  histJet1Rho_Fail = new TH1D("h_Jet1Rho", "; Leading Jet #rho ; Number of Events", 60, -7, -1);
 
 }
 

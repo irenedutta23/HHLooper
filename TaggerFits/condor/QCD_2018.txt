@@ -1,0 +1,7 @@
+/storage/user/sixie/data/HH/HHTo4BNtupler/20201117/option20/combined/2018/QCD_HT1000to1500_TuneCP5_13TeV-madgraphMLM-pythia8_1pb_weighted.root
+/storage/user/sixie/data/HH/HHTo4BNtupler/20201117/option20/combined/2018/QCD_HT1500to2000_TuneCP5_13TeV-madgraphMLM-pythia8_1pb_weighted.root
+/storage/user/sixie/data/HH/HHTo4BNtupler/20201117/option20/combined/2018/QCD_HT2000toInf_TuneCP5_13TeV-madgraphMLM-pythia8_1pb_weighted.root
+/storage/user/sixie/data/HH/HHTo4BNtupler/20201117/option20/combined/2018/QCD_HT200to300_TuneCP5_13TeV-madgraphMLM-pythia8_1pb_weighted.root
+/storage/user/sixie/data/HH/HHTo4BNtupler/20201117/option20/combined/2018/QCD_HT300to500_TuneCP5_13TeV-madgraphMLM-pythia8_1pb_weighted.root
+/storage/user/sixie/data/HH/HHTo4BNtupler/20201117/option20/combined/2018/QCD_HT500to700_TuneCP5_13TeV-madgraphMLM-pythia8_1pb_weighted.root
+/storage/user/sixie/data/HH/HHTo4BNtupler/20201117/option20/combined/2018/QCD_HT700to1000_TuneCP5_13TeV-madgraphMLM-pythia8_1pb_weighted.root

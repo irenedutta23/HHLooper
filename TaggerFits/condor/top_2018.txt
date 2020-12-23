@@ -1,0 +1,2 @@
+/storage/user/sixie/data/HH/HHTo4BNtupler/20201117/option20/combined/2018/ST_tW_antitop_5f_inclusiveDecays_TuneCP5_13TeV-powheg-pythia8_1pb_weighted.root
+/storage/user/sixie/data/HH/HHTo4BNtupler/20201117/option20/combined/2018/ST_tW_top_5f_inclusiveDecays_TuneCP5_13TeV-powheg-pythia8_1pb_weighted.root

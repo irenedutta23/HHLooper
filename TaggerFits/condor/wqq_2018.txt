@@ -1,0 +1,3 @@
+/storage/user/sixie/data/HH/HHTo4BNtupler/20201117/option20/combined/2018/WJetsToQQ_HT-800toInf_qc19_3j_TuneCP5_13TeV-madgraphMLM-pythia8_1pb_weighted.root
+/storage/user/sixie/data/HH/HHTo4BNtupler/20201117/option20/combined/2018/WJetsToQQ_HT400to600_qc19_3j_TuneCP5_13TeV-madgraphMLM-pythia8_1pb_weighted.root
+/storage/user/sixie/data/HH/HHTo4BNtupler/20201117/option20/combined/2018/WJetsToQQ_HT600to800_qc19_3j_TuneCP5_13TeV-madgraphMLM-pythia8_1pb_weighted.root
